@@ -65,6 +65,8 @@ p {
 /*sets style for navigation links*/
 nav {
     float: right;
+    position: relative;
+    right: 200px;
 }
 
 ul, .topnav, .divider {
