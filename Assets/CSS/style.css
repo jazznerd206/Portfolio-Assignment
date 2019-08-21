@@ -38,19 +38,21 @@ h1, h2 {
 
 /*QUOTE: hide this until you can figure out how to do what you want with it*/
 .quote {
-    display: none;
+    display: none; /*hides quotes until ready to be deployed*/
 }
 
 p {
-    line-height: 2;
+    line-height: 2; /*spaces text in paragraphs*/
 }
 
 /*this locks the title div into the top left corner of the header div*/
 .title {
-    float: left;
-    width: 250px;
-    background-color: #4aaaa5;
-    text-align: center;
+    float: left; /*sets float for title*/
+    width: 250px; /*set width for title*/
+    background-color: #4aaaa5; /*set background color for title*/
+    text-align: center; /*centers text in title div*/
+    left: 250px; /*sets div position away from edge*/
+    position: absolute; /*uses header as ancestor*/
 }
 
 #clearfix::after {
@@ -59,23 +61,31 @@ p {
     clear: both;
 }
 
+/*sets style for navigation links*/
 nav {
     float: right;
 }
 
-ul {
+ul, .topnav, .divider {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
+}
+
+.toplinks {
+    display: inline-block;
 }
 
 .topnav {
     float: right;
-    list-style-type: none;
+    margin-top: 25px;
+    margin right: 150px;
 }
 
 .container {
     position: relative;
     height: 100%;
-    width: 100%;
+    min-height: 100vh;
 }
 
