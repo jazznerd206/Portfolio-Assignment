@@ -117,24 +117,6 @@ ul, .topnav, .divider {
     border-color: #dddddd; /*border color*/
 }
 
-/*div setting for mainlevel of contact page*/
-.mainlevelc {
-    width: 500px; /*sets width of main content*/
-    margin: 100px auto 100px; /*sets margin around main content*/
-    padding: 20px; /*sets padding for main content*/
-    background-color: #ffffff; /*background color*/
-    border-color: #dddddd; /*border color*/
-}
-
-/*div setting for mainlevel of portfolio page*/
-.mainlevelp {
-    width: 500px; /*sets width of main content*/
-    margin: 100px auto 100px; /*sets margin around main content*/
-    padding: 20px; /*sets padding for main content*/
-    background-color: #ffffff; /*background color*/
-    border-color: #dddddd; /*border color*/
-}
-
 /*styles for jpg file in mainlevel*/
 .biopic {
     height: 200px; /*height of jpg, had to resize*/
