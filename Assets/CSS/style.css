@@ -1,3 +1,4 @@
+/*sets style for body of page*/
 body {
     margin: 0; /*allows body to fit to viewport*/
     padding: 0; /*allows body to fit to viewport*/
@@ -8,19 +9,12 @@ body {
     color: #777777; /*sets font color for page*/
 }
 
-.toplevel {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background: #4aaaa5;
-}
-
+/*set style for header*/
 header {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    float: left;
-    background: #ffffff;
-    border-top: 2px;
-    border-top-color: #cccccc;
+    position: fixed; /*positioned ancestor, clings to top of viewport*/
+    width: 100%; /*spans width of page*/
+    height: 50px; /*sets visual height of header*/
+    top: 0; /*sets distance from top of viewport*/
+    border-color: #cccccc; /*sets border color of header*/
+    background-color: #ffffff; /*sets background color of header*/
 }
