@@ -28,12 +28,19 @@ footer {
     width: 100%; /*spans width of page*/
     height: 50px; /*sets visual height of footer*/
     bottom: 0; /*sets distance from bottom of viewport*/
+    left: 0; /*locks footer to left side of viewport*/
     background-color: #666666; /*sets background color of footer*/
 }
 
 /*heading style*/
-h1, h2 {
-    color: #ffffff; /*sets color for headings*/
+h1 {
+    color: #ffffff; /*sets color for h1*/
+    font-family: Georgia, Times, 'Times New Roman', serif; /*sets font for headings*/
+}
+
+/*heading style 2*/
+h2 {
+    color: #4aaaa5; /*sets color for h2*/
     font-family: Georgia, Times, 'Times New Roman', serif; /*sets font for headings*/
 }
 
@@ -56,61 +63,72 @@ p {
     position: absolute; /*uses header as ancestor*/
 }
 
+/*clearfix hack, used in multiple places*/
 #clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
+    content: " "; /*clearfix content*/
+    display: block; /*sets display type for included content*/
+    clear: both; /*sets how much to clearfix*/
 }
 
 /*sets style for navigation links*/
 nav {
-    float: right;
-    position: relative;
-    right: 200px;
+    float: right; /*sets nav to the right side of the screen*/
+    position: relative; /*sets position*/
+    right: 200px; /*moves in 200px from right side of viewport*/
 }
 
+/*multiple class stylings*/
 ul, .topnav, .divider {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
+    list-style-type: none; /*specifies type of marker for the <li>, in this case, none*/
+    margin: 0; /*zeroes out margin so style can be applied individually*/
+    padding: 0; /*zeroes out padding so style can be applied individually*/
+    display: inline; /*allows list to be displayed horoizontally instead of vertically*/
 }
 
+/*not sure, but when i delete this it screws everything up*/
 .toplinks {
     display: inline-block;
 }
 
+/*styles for nav bar*/
 .topnav {
-    float: right;
-    margin-top: 25px;
-    margin right: 150px;
+    float: right; /*floats to right*/
+    margin-top: 25px; /*sets margin from top of viewport*/
+    margin right: 150px; /*sets margin from right of viewport (go back and do real math on this one*/
 }
 
+/*large scale page container, not content*/
 .container {
-    position: absolute;
-    height: 100%;
-    min-height: 100vh;
-    width: 100%;
-    margin: 0px;
-    padding: 20px;
+    position: absolute; /*base setting for positioning other divs*/
+    height: 100%; /*sets height to entire viewport*/
+    min-height: 100vh; /*sets to allow scrolling when necessary*/
+    width: 100%; /*sets width to entire viewport*/
+    margin: 0px; /*sets margin to zero*/
+    padding: 20px; /*sets padding to 20px on all sides*/
 }
 
+/*styles for main content of page*/
 .mainlevel {
-    margin: 125px auto 105px;
-    width: 920px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-color: #dddddd;
+    margin: 125px auto 105px; /*sets margin around main content*/
+    width: 920px; /*sets width of main content*/
+    padding: 20px; /*sets padding for main content*/
+    background-color: #ffffff; /*background color*/
+    border-color: #dddddd; /*border color*/
 }
 
+/*styles for jpg file in mainlevel*/
 .biopic {
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin: 20px, 20px, 20px, 20px;
-    padding: 20px;
+    height: 200px; /*height of jpg, had to resize*/
+    width: 200px; /*width of jpg, had to resize*/
+    float: left; /*floats on left side of div*/
+    margin: 20px, 20px, 20px, 20px; /*sets margin of jpg*/
+    padding: 20px; /*sets padding of jpg*/
 }
 
+/*styles for <p> in mainlevel*/
 .bio {
-    margin: 25 px, 25px, 25px, 25px;
+    margin: 25 px, 25px, 25px, 25px; /*sets margins for <p> in mainlevel*/
 }
+
+/*styles for contact form*/
+
