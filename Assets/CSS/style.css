@@ -131,28 +131,31 @@ ul, .topnav, .divider {
     margin: 25 px, 25px, 25px, 25px; /*sets margins for <p> in mainlevel*/
 }
 
-
+/*styles for contact form*/
 form {
-    margin: 20px, 20px, 20px, 20px;
+    margin: 20px, 20px, 20px, 20px; /*sets margin for form div*/
 }
 
+/*styles for name/email boxes of contact form*/
 input{
-    margin: 10px;
-    padding: 0;
-    width: 900px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px; /*sets margins of name/email entry*/
+    padding: 0; /*sets padding of name/email entry*/
+    width: 900px; /*sets with of name/email entry*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*sets font of name/email entry*/
 }
 
+/*styles for message box on contact form*/
 textarea {
-    margin: 10px;
-    width: 900px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px; /*sets margins around message box*/
+    width: 900px; /*sets width of message box*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*sets font type message box*/
 }
 
+/*style for submit button on contact form*/
 button {
-    margin: 10px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 6px 22px;
+    margin: 10px; /*sets margins of button*/
+    background-color: #4aaaa5; /*sets color of background on button*/
+    color: #ffffff; /*sets font color of button*/
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; /*sets font type of button*/
+    padding: 10px, 10px; /*adds padding around button*/
 }
