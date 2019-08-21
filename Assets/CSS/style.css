@@ -131,26 +131,21 @@ ul, .topnav, .divider {
     margin: 25 px, 25px, 25px, 25px; /*sets margins for <p> in mainlevel*/
 }
 
-/*styles for contact form*/
-.formdiv {
-    width: 500px;
-    max-width: 500px;
-}
 
 form {
     margin: 20px, 20px, 20px, 20px;
 }
 
 input{
-    margin: 5px;
+    margin: 10px;
     padding: 0;
-    width: 500px;
+    width: 900px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 textarea {
-    margin: 5px;
-    width: 500px;
+    margin: 10px;
+    width: 900px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
