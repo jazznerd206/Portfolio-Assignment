@@ -1,3 +1,5 @@
+/*the following styles are applied to all pages, body/header/footer remain consistent*/
+
 /*sets style for body of page*/
 body {
     margin: 0; /*allows body to fit to viewport*/
@@ -26,5 +28,54 @@ footer {
     height: 50px; /*sets visual height of footer*/
     bottom: 0; /*sets distance from bottom of viewport*/
     background-color: #666666; /*sets background color of footer*/
+}
+
+/*heading style*/
+h1, h2 {
+    color: #ffffff; /*sets color for headings*/
+    font-family: Georgia, Times, 'Times New Roman', serif; /*sets font for headings*/
+}
+
+/*QUOTE: hide this until you can figure out how to do what you want with it*/
+.quote {
+    display: none;
+}
+
+p {
+    line-height: 2;
+}
+
+/*this locks the title div into the top left corner of the header div*/
+.title {
+    float: left;
+    width: 250px;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    float: right;
+    list-style-type: none;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
