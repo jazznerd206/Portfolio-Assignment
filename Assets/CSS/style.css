@@ -45,6 +45,12 @@ h2 {
     font-family: Georgia, Times, 'Times New Roman', serif; /*sets font for headings*/
 }
 
+/*heading style 4*/
+h4 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 /*QUOTE: hide this until you can figure out how to do what you want with it*/
 .quote {
     display: none; /*hides quotes until ready to be deployed*/
@@ -158,4 +164,28 @@ button {
     color: #ffffff; /*sets font color of button*/
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; /*sets font type of button*/
     padding: 10px, 10px; /*adds padding around button*/
+}
+
+/*styles for portfolio page*/
+.portfoliodiv {
+    width: 700px; /*sets width of large scale jpg container, non visual*/
+    margin: 10px, 10px, 10px, 10px; /*sets margins of large scale jpg container, non visual*/
+}
+
+/*styles for jpg files, clearfix used*/
+.image {
+    position: relative; /*nearest positioned ancestor*/
+    float: left; /*sets float to left*/
+    padding: 10px; /*sets padding for images*/
+    margin: 25px, 25px, 25px, 25px; /*sets margins for images*/
+}
+
+/*styles for "project" title*/
+.projecttitle {
+    position: absolute; /*sets position for project titles, uses jpg for nearest positioned ancestor*/
+    bottom: 20px; /*spacer on bottom of jpg*/
+    width: 320px; /*sets width of title to match jpg*/
+    background-color: #4aaaa5; /*sets background color for title*/
+    text-align: center; /*aligns title text to center*/
+    opacity: .5; /*creates opacity of title so entire picture can be viewed. I love my dog.*/
 }
