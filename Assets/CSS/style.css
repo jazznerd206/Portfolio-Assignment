@@ -18,3 +18,13 @@ header {
     border-color: #cccccc; /*sets border color of header*/
     background-color: #ffffff; /*sets background color of header*/
 }
+
+/*set style for footer*/
+footer {
+    position: fixed; /*locks footer to bottom of page (revisit)*/
+    width: 100%; /*spans width of page*/
+    height: 50px; /*sets visual height of footer*/
+    bottom: 0; /*sets distance from bottom of viewport*/
+    background-color: #666666; /*sets background color of footer*/
+}
+
