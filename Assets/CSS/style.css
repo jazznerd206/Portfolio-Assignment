@@ -6,7 +6,7 @@ body {
     padding: 0; /*allows body to fit to viewport*/
     height: 100%; /*allows body to fit to viewport*/
     background-color: #4aaaa5; /*sets background color for body*/
-    background-image: "../Images/floor-tile.png"; /*background for body*/
+    background-image: url("../../Assets/Images/floor-tile.png"); /*background image for body*/
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; /*sets font family for page*/
     color: #777777; /*sets font color for page*/
 }
